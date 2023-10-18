@@ -1,0 +1,399 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#a {
+    width: auto;
+    height: auto;
+    padding: auto;
+}
+
+/*Header blog  part style*/
+.logo_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo_P {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: orangered;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biblio {
+    display: none;
+}
+
+.header_main {
+    height: 50px;
+    background-color: rgba(236, 201, 201, 0.226);
+}
+
+.header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+.nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#nav_fixe {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    height: 20px;
+    background-color: rgb(145, 145, 145);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+/* body 1st blog style*/
+.marketing_section {
+    background: url(../images/img\ \(1\).jpeg) center no-repeat;
+}
+
+.marketing_section_blog {
+    height: 500px;
+    background-color: rgba(163, 88, 35, 0.425);
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.marketing_message {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10% !important;
+}
+
+.pack_btn {
+    height: 30px;
+    border: none;
+    background-color: orangered;
+    border-radius: 10px;
+    font-size: larger;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.text1 {
+    font-size: xx-large;
+}
+
+.pack_btn:hover {
+    background-color: orange;
+}
+
+/*--------Packs Section-----------*/
+
+.pack_section_title {
+    height: 70px;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.packs_blog {
+    display: flex;
+    background-color: rgb(150, 149, 149);
+    align-items: center;
+    padding: 40px 0;
+}
+
+.packs_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.pack {
+    width: 250px;
+    background-color: whitesmoke;
+    height: 380px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pack_logo {
+    height: 80px;
+    width: 80px;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+}
+
+#icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 1rem;
+}
+
+.pack_title_blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#pack_basic {
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+#pack_standar {
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+#pack_prenium {
+    height: 500px;
+    background-color: rgba(255, 68, 0, 0.897);
+    width: 280px;
+    border-radius: 1rem;
+    color: white;
+}
+
+#pack_prenium .pack_description {
+    gap: 30px;
+    font-size: 25px;
+}
+
+.pack_description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.command_pack_btn {
+    height: 35px;
+    background-color: rgb(9, 9, 136);
+    color: whitesmoke;
+    border: none;
+    border-radius: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.command_pack_btn:hover {
+    background-color: blue;
+}
+
+/*Avantages section style*/
+.avantages_section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.avantages_section_title {
+    padding-left: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+
+.avantages_blogs_container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.avantages_blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.avantage {
+    height: 230px;
+    width: 250px;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.avantage_icon {
+    height: 85px;
+    width: 85px;
+    border-radius: 100%;
+    background-color: orangered;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.avantage_desc_blog {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+/*-------form----section-------*/
+.form_container {
+    display: flex;
+    justify-content: right;
+    padding-right: 150px;
+    padding: 30px 0;
+}
+
+.form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 150px;
+}
+
+.form input {
+    height: 30px;
+    border: 2px solid lightgray;
+}
+
+.input_blog {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input_blog select {
+    height: 30px;
+    border: 2px solid lightgray;
+    background-color: inherit;
+}
+
+#title {
+    width: 150px;
+}
+
+.form_btn {
+    width: 100px;
+    height: 30px;
+    background-color: orangered;
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+span {
+    color: orangered;
+    font-weight: 500;
+}
+
+.form_btn:hover {
+    background-color: orange;
+}
+
+#message {
+    height: 105px;
+    border: 2px solid lightgray;
+}
+
+.contions_accept {
+    align-items: center;
+}
+
+
+/*----footer_blog----*/
+.footer_blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1 {
+    height: 35px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    background-color: orangered;
+    align-items: center;
+    padding: 0 150px;
+}
+
+.footer_textBlog_container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.footer_textBlog_container a {
+    color: whitesmoke;
+}
+
+.footer_text_blog {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: whitesmoke;
+}
+
+.footer_logo {
+    color: whitesmoke;
+}
+
+.link_title {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.footer_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bolder;
+    gap: 5px;
+}
+
+#logo_P {
+    background-color: whitesmoke;
+    color: orangered;
+}
